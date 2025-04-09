@@ -6,7 +6,19 @@
   width: 100vw;
   height: 100vh;
 }
+*{
+  font-family: "Poppins", sans-serif;
+}
 
 body {
   margin: 0;
+}
+
+.noscrollbar {
+  overflow-x: auto;
+  scrollbar-width: none; /* For Firefox */
+}
+
+.noscrollbar::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Opera */
 }
